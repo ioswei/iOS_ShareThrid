@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2002D8345652A6530FC1C1A6 /* Pods_ShareActivityView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302831418BAB1D6A42D3C7DC /* Pods_ShareActivityView.framework */; };
+		4FAD6A2F221AA5B7000D0998 /* CustomActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD6A2D221AA5B7000D0998 /* CustomActivity.m */; };
+		4FAD6A32221AA62B000D0998 /* custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD6A30221AA62B000D0998 /* custom.png */; };
+		4FAD6A33221AA62B000D0998 /* shareImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FAD6A31221AA62B000D0998 /* shareImage.png */; };
+		F55C78981E9CE1D700F008E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C78971E9CE1D700F008E5 /* main.m */; };
+		F55C789B1E9CE1D700F008E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C789A1E9CE1D700F008E5 /* AppDelegate.m */; };
+		F55C789E1E9CE1D700F008E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C789D1E9CE1D700F008E5 /* ViewController.m */; };
+		F55C78A11E9CE1D700F008E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55C789F1E9CE1D700F008E5 /* Main.storyboard */; };
+		F55C78A31E9CE1D700F008E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55C78A21E9CE1D700F008E5 /* Assets.xcassets */; };
+		F55C78A61E9CE1D700F008E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55C78A41E9CE1D700F008E5 /* LaunchScreen.storyboard */; };
+		F55C78B11E9CE1D700F008E5 /* ShareActivityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C78B01E9CE1D700F008E5 /* ShareActivityViewTests.m */; };
+		F55C78BC1E9CE1D700F008E5 /* ShareActivityViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C78BB1E9CE1D700F008E5 /* ShareActivityViewUITests.m */; };
+		F55C78CB1E9CE20D00F008E5 /* ShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C78CA1E9CE20D00F008E5 /* ShareItem.m */; };
+		F55C78CD1E9CE2EC00F008E5 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F55C78CC1E9CE2EC00F008E5 /* 111.jpg */; };
+		F55C78D01E9CE48500F008E5 /* 222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F55C78CE1E9CE48500F008E5 /* 222.jpg */; };
+		F55C78D11E9CE48500F008E5 /* 333.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F55C78CF1E9CE48500F008E5 /* 333.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55C78AD1E9CE1D700F008E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55C788B1E9CE1D700F008E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55C78921E9CE1D700F008E5;
+			remoteInfo = ShareActivityView;
+		};
+		F55C78B81E9CE1D700F008E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55C788B1E9CE1D700F008E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55C78921E9CE1D700F008E5;
+			remoteInfo = ShareActivityView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302831418BAB1D6A42D3C7DC /* Pods_ShareActivityView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareActivityView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3777E65FF9BCF502F38DEDE2 /* Pods-ShareActivityView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareActivityView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareActivityView/Pods-ShareActivityView.release.xcconfig"; sourceTree = "<group>"; };
+		4FAD6A2D221AA5B7000D0998 /* CustomActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActivity.m; sourceTree = "<group>"; };
+		4FAD6A2E221AA5B7000D0998 /* CustomActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActivity.h; sourceTree = "<group>"; };
+		4FAD6A30221AA62B000D0998 /* custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom.png; sourceTree = "<group>"; };
+		4FAD6A31221AA62B000D0998 /* shareImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareImage.png; sourceTree = "<group>"; };
+		F55C78931E9CE1D700F008E5 /* ShareActivityView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareActivityView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C78971E9CE1D700F008E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F55C78991E9CE1D700F008E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F55C789A1E9CE1D700F008E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F55C789C1E9CE1D700F008E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F55C789D1E9CE1D700F008E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F55C78A01E9CE1D700F008E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55C78A21E9CE1D700F008E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55C78A51E9CE1D700F008E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55C78A71E9CE1D700F008E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55C78AC1E9CE1D700F008E5 /* ShareActivityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareActivityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C78B01E9CE1D700F008E5 /* ShareActivityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareActivityViewTests.m; sourceTree = "<group>"; };
+		F55C78B21E9CE1D700F008E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55C78B71E9CE1D700F008E5 /* ShareActivityViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareActivityViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C78BB1E9CE1D700F008E5 /* ShareActivityViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareActivityViewUITests.m; sourceTree = "<group>"; };
+		F55C78BD1E9CE1D700F008E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55C78CA1E9CE20D00F008E5 /* ShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareItem.m; sourceTree = "<group>"; };
+		F55C78CC1E9CE2EC00F008E5 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
+		F55C78CE1E9CE48500F008E5 /* 222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpg; sourceTree = "<group>"; };
+		F55C78CF1E9CE48500F008E5 /* 333.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 333.jpg; sourceTree = "<group>"; };
+		F55C78D51E9CFC5500F008E5 /* ShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareItem.h; sourceTree = "<group>"; };
+		F70AF6E55E4168D126191411 /* Pods-ShareActivityView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareActivityView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareActivityView/Pods-ShareActivityView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55C78901E9CE1D700F008E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002D8345652A6530FC1C1A6 /* Pods_ShareActivityView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C78A91E9CE1D700F008E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C78B41E9CE1D700F008E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212C5A781083A084748B13BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302831418BAB1D6A42D3C7DC /* Pods_ShareActivityView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4B70497C254E8A84E9E3D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F70AF6E55E4168D126191411 /* Pods-ShareActivityView.debug.xcconfig */,
+				3777E65FF9BCF502F38DEDE2 /* Pods-ShareActivityView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F55C788A1E9CE1D700F008E5 = {
+			isa = PBXGroup;
+			children = (
+				F55C78951E9CE1D700F008E5 /* ShareActivityView */,
+				F55C78AF1E9CE1D700F008E5 /* ShareActivityViewTests */,
+				F55C78BA1E9CE1D700F008E5 /* ShareActivityViewUITests */,
+				F55C78941E9CE1D700F008E5 /* Products */,
+				DC4B70497C254E8A84E9E3D8 /* Pods */,
+				212C5A781083A084748B13BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F55C78941E9CE1D700F008E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55C78931E9CE1D700F008E5 /* ShareActivityView.app */,
+				F55C78AC1E9CE1D700F008E5 /* ShareActivityViewTests.xctest */,
+				F55C78B71E9CE1D700F008E5 /* ShareActivityViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55C78951E9CE1D700F008E5 /* ShareActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				4FAD6A30221AA62B000D0998 /* custom.png */,
+				4FAD6A31221AA62B000D0998 /* shareImage.png */,
+				F55C78CC1E9CE2EC00F008E5 /* 111.jpg */,
+				F55C78CE1E9CE48500F008E5 /* 222.jpg */,
+				F55C78CF1E9CE48500F008E5 /* 333.jpg */,
+				F55C78D51E9CFC5500F008E5 /* ShareItem.h */,
+				F55C78CA1E9CE20D00F008E5 /* ShareItem.m */,
+				F55C78991E9CE1D700F008E5 /* AppDelegate.h */,
+				F55C789A1E9CE1D700F008E5 /* AppDelegate.m */,
+				4FAD6A2E221AA5B7000D0998 /* CustomActivity.h */,
+				4FAD6A2D221AA5B7000D0998 /* CustomActivity.m */,
+				F55C789C1E9CE1D700F008E5 /* ViewController.h */,
+				F55C789D1E9CE1D700F008E5 /* ViewController.m */,
+				F55C789F1E9CE1D700F008E5 /* Main.storyboard */,
+				F55C78A21E9CE1D700F008E5 /* Assets.xcassets */,
+				F55C78A41E9CE1D700F008E5 /* LaunchScreen.storyboard */,
+				F55C78A71E9CE1D700F008E5 /* Info.plist */,
+				F55C78961E9CE1D700F008E5 /* Supporting Files */,
+			);
+			path = ShareActivityView;
+			sourceTree = "<group>";
+		};
+		F55C78961E9CE1D700F008E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55C78971E9CE1D700F008E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F55C78AF1E9CE1D700F008E5 /* ShareActivityViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55C78B01E9CE1D700F008E5 /* ShareActivityViewTests.m */,
+				F55C78B21E9CE1D700F008E5 /* Info.plist */,
+			);
+			path = ShareActivityViewTests;
+			sourceTree = "<group>";
+		};
+		F55C78BA1E9CE1D700F008E5 /* ShareActivityViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F55C78BB1E9CE1D700F008E5 /* ShareActivityViewUITests.m */,
+				F55C78BD1E9CE1D700F008E5 /* Info.plist */,
+			);
+			path = ShareActivityViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55C78921E9CE1D700F008E5 /* ShareActivityView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55C78C01E9CE1D700F008E5 /* Build configuration list for PBXNativeTarget "ShareActivityView" */;
+			buildPhases = (
+				F9D13B4D549439A3945D622D /* [CP] Check Pods Manifest.lock */,
+				F55C788F1E9CE1D700F008E5 /* Sources */,
+				F55C78901E9CE1D700F008E5 /* Frameworks */,
+				F55C78911E9CE1D700F008E5 /* Resources */,
+				0B1DBF18B6B1795F4D0ABF9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareActivityView;
+			productName = ShareActivityView;
+			productReference = F55C78931E9CE1D700F008E5 /* ShareActivityView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55C78AB1E9CE1D700F008E5 /* ShareActivityViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55C78C31E9CE1D700F008E5 /* Build configuration list for PBXNativeTarget "ShareActivityViewTests" */;
+			buildPhases = (
+				F55C78A81E9CE1D700F008E5 /* Sources */,
+				F55C78A91E9CE1D700F008E5 /* Frameworks */,
+				F55C78AA1E9CE1D700F008E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55C78AE1E9CE1D700F008E5 /* PBXTargetDependency */,
+			);
+			name = ShareActivityViewTests;
+			productName = ShareActivityViewTests;
+			productReference = F55C78AC1E9CE1D700F008E5 /* ShareActivityViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F55C78B61E9CE1D700F008E5 /* ShareActivityViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55C78C61E9CE1D700F008E5 /* Build configuration list for PBXNativeTarget "ShareActivityViewUITests" */;
+			buildPhases = (
+				F55C78B31E9CE1D700F008E5 /* Sources */,
+				F55C78B41E9CE1D700F008E5 /* Frameworks */,
+				F55C78B51E9CE1D700F008E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55C78B91E9CE1D700F008E5 /* PBXTargetDependency */,
+			);
+			name = ShareActivityViewUITests;
+			productName = ShareActivityViewUITests;
+			productReference = F55C78B71E9CE1D700F008E5 /* ShareActivityViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55C788B1E9CE1D700F008E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chenjie;
+				TargetAttributes = {
+					F55C78921E9CE1D700F008E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 922US7RP5Z;
+						ProvisioningStyle = Automatic;
+					};
+					F55C78AB1E9CE1D700F008E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F55C78921E9CE1D700F008E5;
+					};
+					F55C78B61E9CE1D700F008E5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F55C78921E9CE1D700F008E5;
+					};
+				};
+			};
+			buildConfigurationList = F55C788E1E9CE1D700F008E5 /* Build configuration list for PBXProject "ShareActivityView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55C788A1E9CE1D700F008E5;
+			productRefGroup = F55C78941E9CE1D700F008E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55C78921E9CE1D700F008E5 /* ShareActivityView */,
+				F55C78AB1E9CE1D700F008E5 /* ShareActivityViewTests */,
+				F55C78B61E9CE1D700F008E5 /* ShareActivityViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55C78911E9CE1D700F008E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C78A61E9CE1D700F008E5 /* LaunchScreen.storyboard in Resources */,
+				F55C78D01E9CE48500F008E5 /* 222.jpg in Resources */,
+				4FAD6A32221AA62B000D0998 /* custom.png in Resources */,
+				F55C78CD1E9CE2EC00F008E5 /* 111.jpg in Resources */,
+				F55C78D11E9CE48500F008E5 /* 333.jpg in Resources */,
+				F55C78A31E9CE1D700F008E5 /* Assets.xcassets in Resources */,
+				F55C78A11E9CE1D700F008E5 /* Main.storyboard in Resources */,
+				4FAD6A33221AA62B000D0998 /* shareImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C78AA1E9CE1D700F008E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C78B51E9CE1D700F008E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1DBF18B6B1795F4D0ABF9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShareActivityView/Pods-ShareActivityView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TYSnapshotScroll/TYSnapshotScroll.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYSnapshotScroll.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareActivityView/Pods-ShareActivityView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D13B4D549439A3945D622D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShareActivityView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55C788F1E9CE1D700F008E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C78CB1E9CE20D00F008E5 /* ShareItem.m in Sources */,
+				F55C789E1E9CE1D700F008E5 /* ViewController.m in Sources */,
+				F55C789B1E9CE1D700F008E5 /* AppDelegate.m in Sources */,
+				F55C78981E9CE1D700F008E5 /* main.m in Sources */,
+				4FAD6A2F221AA5B7000D0998 /* CustomActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C78A81E9CE1D700F008E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C78B11E9CE1D700F008E5 /* ShareActivityViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C78B31E9CE1D700F008E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C78BC1E9CE1D700F008E5 /* ShareActivityViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55C78AE1E9CE1D700F008E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55C78921E9CE1D700F008E5 /* ShareActivityView */;
+			targetProxy = F55C78AD1E9CE1D700F008E5 /* PBXContainerItemProxy */;
+		};
+		F55C78B91E9CE1D700F008E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55C78921E9CE1D700F008E5 /* ShareActivityView */;
+			targetProxy = F55C78B81E9CE1D700F008E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55C789F1E9CE1D700F008E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55C78A01E9CE1D700F008E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55C78A41E9CE1D700F008E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55C78A51E9CE1D700F008E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55C78BE1E9CE1D700F008E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F55C78BF1E9CE1D700F008E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55C78C11E9CE1D700F008E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70AF6E55E4168D126191411 /* Pods-ShareActivityView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 922US7RP5Z;
+				INFOPLIST_FILE = ShareActivityView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aibdx.aaa.ShareActivityView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F55C78C21E9CE1D700F008E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3777E65FF9BCF502F38DEDE2 /* Pods-ShareActivityView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 922US7RP5Z;
+				INFOPLIST_FILE = ShareActivityView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aibdx.aaa.ShareActivityView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F55C78C41E9CE1D700F008E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareActivityViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aibdx.aaa.ShareActivityViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareActivityView.app/ShareActivityView";
+			};
+			name = Debug;
+		};
+		F55C78C51E9CE1D700F008E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareActivityViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aibdx.aaa.ShareActivityViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareActivityView.app/ShareActivityView";
+			};
+			name = Release;
+		};
+		F55C78C71E9CE1D700F008E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareActivityViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aibdx.aaa.ShareActivityViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareActivityView;
+			};
+			name = Debug;
+		};
+		F55C78C81E9CE1D700F008E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareActivityViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aibdx.aaa.ShareActivityViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareActivityView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55C788E1E9CE1D700F008E5 /* Build configuration list for PBXProject "ShareActivityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C78BE1E9CE1D700F008E5 /* Debug */,
+				F55C78BF1E9CE1D700F008E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55C78C01E9CE1D700F008E5 /* Build configuration list for PBXNativeTarget "ShareActivityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C78C11E9CE1D700F008E5 /* Debug */,
+				F55C78C21E9CE1D700F008E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55C78C31E9CE1D700F008E5 /* Build configuration list for PBXNativeTarget "ShareActivityViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C78C41E9CE1D700F008E5 /* Debug */,
+				F55C78C51E9CE1D700F008E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55C78C61E9CE1D700F008E5 /* Build configuration list for PBXNativeTarget "ShareActivityViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C78C71E9CE1D700F008E5 /* Debug */,
+				F55C78C81E9CE1D700F008E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55C788B1E9CE1D700F008E5 /* Project object */;
+}

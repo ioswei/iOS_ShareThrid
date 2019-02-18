@@ -1,0 +1,6 @@
+framework module TYSnapshotScroll {
+  umbrella header "TYSnapshotScroll-umbrella.h"
+
+  export *
+  module * { export * }
+}

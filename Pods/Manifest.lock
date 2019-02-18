@@ -1,0 +1,16 @@
+PODS:
+  - TYSnapshotScroll (0.0.3)
+
+DEPENDENCIES:
+  - TYSnapshotScroll
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - TYSnapshotScroll
+
+SPEC CHECKSUMS:
+  TYSnapshotScroll: cc1fb7ddfc26cb671a8075778db261d1f6cfa6bd
+
+PODFILE CHECKSUM: f441c147d85847e3d8c6cc78b53c90706a17b23c
+
+COCOAPODS: 1.5.0

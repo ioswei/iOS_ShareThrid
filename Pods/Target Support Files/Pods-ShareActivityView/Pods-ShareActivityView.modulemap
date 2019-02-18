@@ -1,0 +1,6 @@
+framework module Pods_ShareActivityView {
+  umbrella header "Pods-ShareActivityView-umbrella.h"
+
+  export *
+  module * { export * }
+}
